@@ -1,0 +1,29 @@
+# datos de entrada
+"""
+nombre =
+monto =
+telefono =
+cuotas =
+interes =
+
+"""
+
+# datos de salida
+"""
+valor de la cuota sin interes
+interes
+cuota total
+saldo
+ganancia
+
+"""
+
+# proceso
+"""
+cuota_base = monto / cuotas
+interes = cuota_base * 10%
+cuota_total = cuota_base + interes
+ganancia_total = interes * cuotas
+total_credito = monto + ganancia_total
+
+"""
